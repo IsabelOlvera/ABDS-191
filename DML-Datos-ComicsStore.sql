@@ -73,3 +73,22 @@ INSERT into Inventario (id_comic, cantidad_disponible, disponibilidad) VALUES
 (15, 0, 0);
 
 SELECT*FROM Inventario;
+
+INSERT INTO ComicCompras (cantidad, id_compra, id_comic) VALUES
+(2, 1, 1),   
+(1, 2, 2),  
+(3, 3, 3),   
+(1, 4, 4),   
+(2, 5, 5),   
+(1, 6, 6),   
+(4, 7, 7),   
+(2, 8, 8),   
+(1, 9, 9),   
+(3, 10, 10),
+(2, 11, 11), 
+(1, 12, 12),
+(1, 13, 13), 
+(1, 14, 14), 
+(1, 15, 15);
+
+SELECT*FROM ComicCompras;
